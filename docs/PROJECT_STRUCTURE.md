@@ -99,12 +99,12 @@ Architecture con un ejemplo real, no solo teórico.
 ## Convenciones de nombres de paquete
 
 ```
-com.easysaving.domain.model
-com.easysaving.domain.usecase
-com.easysaving.data.local
-com.easysaving.data.repository
-com.easysaving.presentation.transactionlist
-com.easysaving.di
+com.ortsinton.easysaving.domain.model
+com.ortsinton.easysaving.domain.usecase
+com.ortsinton.easysaving.data.local
+com.ortsinton.easysaving.data.repository
+com.ortsinton.easysaving.presentation.transactionlist
+com.ortsinton.easysaving.di
 ```
 
 ## Próximo paso técnico (Sprint 0)

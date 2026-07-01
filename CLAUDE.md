@@ -41,8 +41,8 @@ Ver ADR-003 y ADR-004 para el detalle completo y el porque de esta decision.
 
 ## Convenciones de codigo
 
-- Paquetes: `com.easysaving.domain`, `com.easysaving.data`,
-  `com.easysaving.presentation`, `com.easysaving.di`
+- Paquetes: `com.ortsinton.easysaving.domain`, `com.ortsinton.easysaving.data`,
+  `com.ortsinton.easysaving.presentation`, `com.ortsinton.easysaving.di`
 - `shared/domain` no puede importar nada de Android, iOS ni SQLDelight
 - `shared/presentation` no puede importar tipos de SQLDelight directamente
   (siempre pasa por domain)
