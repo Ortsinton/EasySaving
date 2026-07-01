@@ -1,4 +1,4 @@
-package com.ortsinton.easybudget
+package com.ortsinton.easysaving
 
 import androidx.compose.ui.window.ComposeUIViewController
 

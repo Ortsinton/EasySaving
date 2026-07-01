@@ -1,9 +1,9 @@
-package com.ortsinton.easybudget
+package com.ortsinton.easysaving
 
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
-class SharedLogicAndroidHostTest {
+class SharedCommonTest {
 
     @Test
     fun example() {

@@ -1,4 +1,4 @@
-package com.ortsinton.easybudget
+package com.ortsinton.easysaving
 
 import kotlin.test.Test
 import kotlin.test.assertEquals

@@ -1,4 +1,4 @@
-package com.ortsinton.easybudget
+package com.ortsinton.easysaving
 
 interface Platform {
     val name: String

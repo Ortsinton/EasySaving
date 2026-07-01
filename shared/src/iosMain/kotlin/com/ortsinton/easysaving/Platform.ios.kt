@@ -1,4 +1,4 @@
-package com.ortsinton.easybudget
+package com.ortsinton.easysaving
 
 import platform.UIKit.UIDevice
 

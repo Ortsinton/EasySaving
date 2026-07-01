@@ -1,4 +1,4 @@
-package com.ortsinton.easybudget
+package com.ortsinton.easysaving
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.Image
@@ -16,8 +16,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import org.jetbrains.compose.resources.painterResource
 
-import easybudget.shared.generated.resources.Res
-import easybudget.shared.generated.resources.compose_multiplatform
+import easysaving.shared.generated.resources.Res
+import easysaving.shared.generated.resources.compose_multiplatform
 
 @Composable
 @Preview

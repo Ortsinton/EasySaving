@@ -19,7 +19,7 @@ kotlin {
     }
     
     androidLibrary {
-       namespace = "com.ortsinton.easybudget.shared"
+       namespace = "com.ortsinton.easysaving.shared"
        compileSdk = libs.versions.android.compileSdk.get().toInt()
        minSdk = libs.versions.android.minSdk.get().toInt()
     

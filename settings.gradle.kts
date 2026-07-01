@@ -1,4 +1,4 @@
-rootProject.name = "EasyBudget"
+rootProject.name = "EasySaving"
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 pluginManagement {

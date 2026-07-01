@@ -21,11 +21,11 @@ dependencies {
 }
 
 android {
-    namespace = "com.ortsinton.easybudget"
+    namespace = "com.ortsinton.easysaving"
     compileSdk = libs.versions.android.compileSdk.get().toInt()
 
     defaultConfig {
-        applicationId = "com.ortsinton.easybudget"
+        applicationId = "com.ortsinton.easysaving"
         minSdk = libs.versions.android.minSdk.get().toInt()
         targetSdk = libs.versions.android.targetSdk.get().toInt()
         versionCode = 1

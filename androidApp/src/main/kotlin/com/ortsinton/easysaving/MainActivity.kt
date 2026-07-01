@@ -1,4 +1,4 @@
-package com.ortsinton.easybudget
+package com.ortsinton.easysaving
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
