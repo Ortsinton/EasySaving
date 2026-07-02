@@ -1,3 +1,5 @@
 package com.ortsinton.easysaving.domain.model
 
-value class Money(val value: Long) // Amount in cents.
+import kotlin.jvm.JvmInline
+
+@JvmInline value class Money(val value: Long) // Amount in cents.
