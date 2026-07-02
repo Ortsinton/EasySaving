@@ -1,0 +1,41 @@
+-- Schema v1.
+-- Named TransactionEntity (not Transaction) for two reasons:
+--   1. TRANSACTION is a reserved SQL keyword (BEGIN TRANSACTION).
+--   2. Avoids a name clash with the domain.model.Transaction class when both
+--      are imported in the data layer's mappers.
+-- Column conventions follow ADR-007: Long autoincrement id, amount stored as
+-- INTEGER cents (matching the Money value class), date as an ISO-8601 TEXT
+-- (LocalDate), and the category referenced by id (foreign key), never embedded.
+CREATE TABLE TransactionEntity (
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    amountCents INTEGER NOT NULL,
+    description TEXT NOT NULL,
+    date TEXT NOT NULL,
+    categoryId INTEGER NOT NULL
+);
+
+selectAll:
+SELECT *
+FROM TransactionEntity
+ORDER BY date DESC, id DESC;
+
+selectById:
+SELECT *
+FROM TransactionEntity
+WHERE id = ?;
+
+insert:
+INSERT INTO TransactionEntity(amountCents, description, date, categoryId)
+VALUES (?, ?, ?, ?);
+
+update:
+UPDATE TransactionEntity
+SET amountCents = ?,
+    description = ?,
+    date = ?,
+    categoryId = ?
+WHERE id = ?;
+
+deleteById:
+DELETE FROM TransactionEntity
+WHERE id = ?;
